@@ -25,62 +25,91 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Delphi creates interactive digital replicas trained on your existing content, voice, and expertise. We serve coaches, consultants, and creators with 10K+ followers who spend countless hours answering the same questions. Your Digital Mind handles repetitive inquiries while you focus on high-value work, multiplying your impact without multiplying your hours."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Mehta",
+			position: "Leadership Coach",
+			company: "Elevate Coaching",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I was spending 18 hours every week answering the same questions from potential clients. My Digital Mind now handles those conversations while I focus on high-value sessions. I've scaled my reach to 3,000 people without hiring a team.",
+			image: "/generated/image-professional-headshot-of-a-confident-sou.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Williams",
+			position: "Business Consultant",
+			company: "Growth Strategy Partners",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The time I spent on repetitive discovery calls was draining my energy and limiting my growth. Now my Digital Mind qualifies leads and answers foundational questions 24/7. I've reclaimed 15 hours per week and doubled my client capacity.",
+			image: "/generated/image-professional-headshot-of-a-confident-bla.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Sofia Rodriguez",
+			position: "Course Creator",
+			company: "Creative Mastery Academy",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"My students needed support between sessions, but I couldn't afford to hire staff. My Digital Mind provides personalized guidance anytime, maintaining that personal connection at scale. Student satisfaction increased by 40% while my workload decreased.",
+			image: "/generated/image-professional-headshot-of-a-confident-his.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Your expertise, infinitely available"
+	subtitle="Scale your wisdom without trading hours for dollars through conversational AI trained on your unique voice and knowledge"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Be everywhere at once",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Answer thousands of questions simultaneously across every time zone while you sleep, focusing your time on high-value interactions that truly need your personal attention."
 		},
 		{
-			title: "Data Analysis",
+			title: "Clone your voice and personality",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Train your Digital Mind on your content, voice, and expertise so every interaction feels authentically you, never generic AI."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Deploy across every channel",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Meet your audience where they are through SMS, WhatsApp, voice calls, video, or embed directly on your website with a single Digital Mind."
+		},
+		{
+			title: "Stay current automatically",
+			description:
+				"Your Digital Mind learns continuously from new YouTube videos, podcasts, and content you create, ensuring answers always reflect your latest thinking."
+		},
+		{
+			title: "Generate revenue on autopilot",
+			description:
+				"Monetize your expertise without hiring a team by capturing leads, scheduling consultations, and qualifying prospects while you focus on delivery."
+		},
+		{
+			title: "Your mind remains yours",
+			description:
+				"Maintain complete ownership and control with encrypted storage, strict privacy standards, and the assurance your Digital Mind never improvises without consent."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop trading hours for dollars"
+	subtitle="Start multiplying your impact"
+	description="Join thousands of coaches and creators who've reclaimed 15+ hours weekly while deepening client relationships. Your Digital Mind handles repetitive questions with your authentic voice, so you can focus on the work only you can do. Arnold Schwarzenegger, Matthew Hussey, and Jay Shetty already trust Delphi to scale their wisdom."
+	imageSrc="/generated/image-a-confident-coach-smiling-warmly-in-a-su.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Start scaling your wisdom",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>
